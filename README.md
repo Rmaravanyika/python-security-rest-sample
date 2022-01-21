@@ -68,7 +68,7 @@ Follow these steps to register a new application:
 6. Under **Certificates & secrets**, choose **New client secret** and add a quick description. A new secret will be displayed in the **Value** column. Copy this password. You will need it later to complete the configuration process.
 7. Under **API permissions**, choose **Add a permission** > **Microsoft Graph**.
 8. Under **Delegated Permissions**, add the permissions/scopes required for the sample. This sample requires **User.Read**,  **SecurityEvents.ReadWrite.All**, and **SecurityActions.ReadWrite.All** permissions.
-    >**Note**: See the [Microsoft Graph permissions reference](https://developer.microsoft.com/en-us/graph/docs/concepts/permissions_reference) for more information about Graph's permission model.
+    >**Note**: See the [Microsoft Graph permissions reference](https://developer.microsoft.com/en-us/graph/docs/concepts/permissions-reference) for more information about Graph's permission model.
 
 Follow these steps to allow [webhooks](https://developer.microsoft.com/en-us/graph/docs/concepts/webhooks) to access the sample via a NGROK tunnel:
 
